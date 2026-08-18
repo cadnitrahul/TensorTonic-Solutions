@@ -6,6 +6,5 @@ def relu(x):
     """
     # Write code here
     z=np.array(x)
-    y=z*(z>0)
-    return y
+    return np.maximum(0, z)
     pass
